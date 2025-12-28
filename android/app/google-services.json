@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "422931650774",
+    "project_id": "apna--tiffin",
+    "storage_bucket": "apna--tiffin.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422931650774:android:177e1003c389219025d177",
+        "android_client_info": {
+          "package_name": "com.example.apna_tiffin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUdS-f4VGcY3Kbnswk_U5dzrQAbNDbAII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+name: apna_tiffin
+description: "Apna Tiffin : Developed By -> Chandan Gupta"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- Firebase (Backend) ---
+  firebase_core: ^4.3.0
+  firebase_auth: ^6.1.3
+  cloud_firestore: ^6.1.1
+  firebase_storage: ^13.0.5
+  firebase_messaging: ^16.1.0
+
+  # --- State Management (Riverpod) ---
+  flutter_riverpod: ^3.0.3
+  riverpod_annotation: ^3.0.3
+
+  # --- UI & Design System ---
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10
+  table_calendar: ^3.1.0
+  intl: ^0.20.2
+
+  # --- Functional & Utilities ---
+  go_router: ^17.0.1
+  image_picker: ^1.1.0
+  url_launcher: ^6.2.5
+  geolocator: ^14.0.2
+  permission_handler: ^12.0.1
+  uuid: ^4.3.3
+  shared_preferences: ^2.2.2
+
+  # --- Data Modeling ---
+  json_annotation: ^4.9.0
+  freezed_annotation: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # --- Code Generation Tools ---
+  build_runner: ^2.4.9
+  riverpod_generator: ^3.0.3
+  riverpod_lint: ^3.0.3
+  
+  # --- Model Generation ---
+  json_serializable: ^6.8.0
+  freezed: ^3.2.3
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
